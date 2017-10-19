@@ -1,3 +1,23 @@
+@charset "UTF-8";
+
+/* すべてのwebページに適用される */
+
+/*menu.html*/
+.listblock{
+        overflow: hidden;
+        zoom: 1;
+}
+
+.listleftblock{
+        float:left;
+        width: 300px;
+
+}
+
+.listrightblock{
+        padding-left: 320px;
+}
+
 p { font-size: 15px; }
 
 /* 見出し */

@@ -1,2 +1,7 @@
 # pr-app-development
-プロジェクトの説明webアプリ
+KITパソコン連携プロジェクトの説明webアプリ  
+- 環境
+  - HTML5
+  - Bootstrap4 α
+- 推奨環境
+  - PyCharm

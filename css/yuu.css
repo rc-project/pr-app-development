@@ -1,9 +1,15 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-    margin: 0 auto;
+    margin-bottom: 60px;
     background-color: #444;
 }
 
-p, h2 {
+h3 {
+    margin:15px;
     color: #fff;
 }
 
@@ -14,15 +20,29 @@ img {
 .carousel {
   margin-bottom: 4rem;
 }
-/* Declare heights because of positioning of img element */
+
 .carousel-item {
-  height: 32rem;
-  background-color: #777;
+  height: 30rem;
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 25rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+.footer > .container {
+  width: auto;
+  max-width: 680px;
+  margin-left: 30px;
 }

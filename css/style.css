@@ -3,32 +3,43 @@
 /* すべてのwebページに適用される */
 
 /*menu.html*/
-.listblock{
-        overflow: hidden;
-        zoom: 1;
+.listblock {
+    overflow: hidden;
+    zoom: 1;
 }
 
-.listleftblock{
-        float:left;
-        width: 300px;
+.listleftblock {
+    float: left;
+    width: 300px;
 
 }
 
-.listrightblock{
-        padding-left: 320px;
+.listrightblock {
+    padding-left: 320px;
 }
 
-p { font-size: 15px; }
+p {
+    font-size: 15px;
+}
 
 /* 見出し */
-h1 { font-size: 26px; }
-h2 { font-size: 18px; }
-h3 { font-size: 16px; }
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
 
 .content {
-    margin-top: 30px;
+    margin: 20px 0;
 }
 
-.card .card-img {
-        opacity: 0.9;
+.content .col-md-3 {
+    margin-top: 25px;
 }
+

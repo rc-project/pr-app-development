@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+.header-bg {
+        width: 100%;
+        background-color:#00b8d4;
+}
+
+.header {
+    width: 980px;
+    margin: 0 auto;
+
+}
+
+.navbar {
+    background-color: #00b8d4;
+}
+
+.navbar .navbar-brand {
+    color: #eceff1;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #34495e;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #eceff1;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #34495e;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus {
+    color: #34495e;
+    background-color: #eceff1;
+}
+
+.navbar .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+    background-color: #00e5ff;
+}
+
+.navbar .navbar-toggler,
+.navbar-toggler-icon {
+    color: #eceff1;
+}
+
+.navbar .navbar-collapse,
+.navbar {
+    border-color: #eceff1;
+}
+
+.navbar .navbar-link {
+    color: #eceff1;
+}
+
+.navbar .navbar-link:hover {
+    color: #34495e;
+}
+/* Small devices (landscape phones, 567px and up) */
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 767px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 991px) {
+    .header-bg .container-fluid {
+        width: 980px;
+        margin: 0 auto;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1199px) {
+    .header-bg .container-fluid {
+        width: 980px;
+        margin: 0 auto;
+    }
+}

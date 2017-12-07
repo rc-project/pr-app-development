@@ -69,14 +69,6 @@ h3 { font-size: 16px; }
         text-align: center;
 }
 
-.column-margin .col-md-4{
-        padding:0 20px;
-}
-
-.column-margin{
-        margin:0 -120px;
-}
-
 p.card-text-center{
         text-align: center;
 }

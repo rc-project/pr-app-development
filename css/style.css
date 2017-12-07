@@ -35,11 +35,22 @@ h3 {
     font-size: 16px;
 }
 
-.content {
-    margin: 20px 0;
+.content .container {
+    margin-top: 20px;
 }
 
 .content .col-md-3 {
-    margin-top: 25px;
+    margin: 20px 0;
 }
 
+.content .card .card-title {
+    color: #fff;
+}
+
+.content .card .card-text {
+    color: #fff;
+}
+
+.content .card-title span {
+    background-color: #000;
+}

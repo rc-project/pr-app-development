@@ -3,60 +3,24 @@
 /* すべてのwebページに適用される */
 
 /*menu.html*/
+.listblock{
+        overflow: hidden;
+        zoom: 1;
+}
+
+.listleftblock{
+        float:left;
+        width: 300px;
+
+}
+
+.listrightblock{
+        padding-left: 320px;
+}
+
 p { font-size: 15px; }
 
 /* 見出し */
 h1 { font-size: 26px; }
 h2 { font-size: 18px; }
 h3 { font-size: 16px; }
-
-/*index.html*/
-.bodycolor{
-        background-color: #EFEFEF;
-}
-
-#card-top{
-        margin-top: 1rem;
-}
-
-.card-bg-color:hover{
-        background-color:#B3B3B3;
-}
-
-.top{
-        position:relative;
-}
-.topimage{
-        width: 100%;
-        height: 100%;
-        opacity: 0.6;
-}
-
-.navcolor{
-        background-color: #4D4D4D;
-}
-
-.navfont h1{
-        color: #fff;
-        font-style: normal;
-        text-decoration: none;
-        font-size: 18px;
-        text-align: center;
-}
-
-p.card-text-center{
-        text-align: center;
-}
-
-.linkbox{
-        position: relative;
-}
-
-.linkbox a{
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-}

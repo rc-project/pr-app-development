@@ -60,3 +60,23 @@ p.card-text-center{
         width: 100%;
         height: 100%;
 }
+
+.content .container {
+    margin-top: 20px;
+}
+
+.content .col-md-3 {
+    margin: 20px 0;
+}
+
+.content .card .card-title {
+    color: #fff;
+}
+
+.content .card .card-text {
+    color: #fff;
+}
+
+.content .card-title span {
+    background-color: #000;
+}

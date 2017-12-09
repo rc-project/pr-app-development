@@ -3,68 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <title>地域連携パソコンプロジェクト</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+
 </head>
 <body>
-<nav class="navbar navbar-toggleable-md navbar-light bg-success">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="index.html">地域連携パソコンプロジェクト</a>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="history.html">活動履歴<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="plan.html">今後の活動予定</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="info.html">プロジェクト紹介</a>
-      </li>
-    </ul>
-  </div>
-</nav>
 
-<div class="container">
-    <div class="form-group">
-        <label for=""></label>
-        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-        <small id="emailHelpId" class="form-text text-muted">Help text</small>
-    </div>
-    <div class="form-group">
-        <label for=""></label>
-        <input type="password" class="form-control" name="" id="" placeholder="">
-    </div>
-
-    <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary　active">
-            <input type="checkbox" name="" id="" checked autocomplete="off">
-            <p>はい</p>
-        </label>
-        <label class="btn btn-secondary">
-            <input type="checkbox" name="" id="" autocomplete="off">
-            <p>いいえ</p>
-        </label>
-        <label class="btn btn-info">
-            <input type="checkbox" name="" id="" autocomplete="off">
-            <p>どちらでも</p>
-        </label>
+<div class="header-bg">
+    <div class="container-fluid">
+        <nav class="navbar navbar-toggleable-md navbar-inverse">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">地域連携パソコンプロジェクト</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">プロジェクト紹介</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="plan.html">今後の活動予定</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">活動履歴</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 </div>
+
+<div class="content-plan">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img class="img-fluid mx-auto rounded" src="image/pc_study_201711.png">
+            </div>
+            <div class="col-md-7 text-center">
+                <h2 class="feature-heading">～プロジェクト内勉強会～</h2>
+                <p>次回はUnityの勉強会を開催する予定です<br>
+                    毎週水曜日の13:00～
+                </p>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="row">
+            <div class="col-md-5 push-md-7">
+                <img class="img-fluid mx-auto rounded" src="image/pc_study_201711.png">
+            </div>
+            <div class="col-md-7 pull-md-5 text-center">
+                <h2 class="feature-heading">～パソコン教室～</h2>
+                <p>今年度は計10回開催する予定です<br>
+                    毎月第2水曜日の15:00～17:00
+                </p>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="row">
+            <div class="col-md-5">
+                <img class="img-fluid mx-auto rounded" src="image/pc_study_201711.png">
+            </div>
+            <div class="col-md-7 text-center">
+                <h2 class="feature-heading">～Web開発～</h2>
+                <p>Djangoを用いたWebアプリを開発する予定です<br>
+                    学習支援サイト・プロジェクト紹介用サイト
+                </p>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="row">
+            <div class="col-md-5 push-md-7">
+                <img class="img-fluid mx-auto rounded" src="image/pc_study_201711.png">
+            </div>
+            <div class="col-md-7 pull-md-5 text-center">
+                <h2 class="feature-heading">～Unity開発～</h2>
+                <p>Unityを用いてアプリを開発する予定です<br>
+                    ゲーム・Blender・Android
+                </p>
+            </div>
+        </div>
+        <hr class="divider">
+    </div>
+</div>
+
+<footer>
+    <p id=copyright>
+        <small>&copy; 2017 RCproject</small>
+    </p>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
-
-    <footer>
-        <p id=copyright><small>&copy; 2017 RCproject</small></p>
-    </footer>
-
 </body>
 </html>

@@ -76,21 +76,13 @@
     margin: 40px 0;
 }
 
-.content-plan .feature-heading {
-    margin-top: 40px;
-}
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 991px) {
-    .content-plan .feature-heading {
-        margin-top: 100px;
-    }
+
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1199px) {
-    .content-plan .feature-heading {
-        margin-top: 100px;
-    }
+
 }
